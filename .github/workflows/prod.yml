@@ -70,5 +70,5 @@ jobs:
 
       - name: Deploy to Vercel
         env:
-          VERCEL_TOKEN: ${{ env.APP_URL }}
+          VERCEL_TOKEN: ${{ env.VERCEL_TOKEN}}
         run: vercel --token $VERCEL_TOKEN --prod
