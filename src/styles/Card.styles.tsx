@@ -39,42 +39,6 @@ export const CardImage=styled.img`
 width:100%;
 height:auto
 `
-
-// export const CardContainer = styled.div`
-// // display: flex;
-// //   flex-wrap: wrap;
-// //   justify-content: space-between;
-
-// // display: grid;
-// //   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-// //   gap: 16px;
-// box-sizing: border-box;
-// `;
-
-// export const CardColumn =styled.div`
-// float: left;
-// //   width: 25%;
-//   padding: 10px;
-//   height: 300px;
-// `
-
-// // export const CardRow = css`
-// //   &:after {
-//     // content: "";
-//     // display: table;
-//     // clear: both;
-// // }`;
-
-// export const CardRow = styled.div`
-// ${() =>
-//   css` &:after{
-//     content: "";
-//     display: table;
-//     clear: both;
-//   }
-//   `}
-// `;
-
 export const CardContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
