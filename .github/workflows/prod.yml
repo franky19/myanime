@@ -15,7 +15,8 @@ env:
   STAGE: "prod"
   APP_NAME: "anime website"
   APP_URL: "https://skuynime.vercel.app/"
-  VERCEL_TOKEN: "dHqnl5DEhhOJAxbprVOqpoLl"
+  VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+  #VERCEL_TOKEN: "dHqnl5DEhhOJAxbprVOqpoLl"
   REACT_APP_API_URL: "https://graphql.anilist.co"
   
 
