@@ -82,7 +82,7 @@ name: Deploy to Vercel
 on:
   push:
     branches:
-      - master # Change to your desired branch
+      - master
 
 jobs:
   deploy:
