@@ -15,8 +15,8 @@ env:
   STAGE: "prod"
   APP_NAME: "anime website"
   APP_URL: "https://skuynime.vercel.app/"
-  VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-  #VERCEL_TOKEN: "dHqnl5DEhhOJAxbprVOqpoLl"
+  #VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+  VERCEL_TOKEN: "88g7Ik4mcJnjDnwYroBbxSsP"
   REACT_APP_API_URL: "https://graphql.anilist.co"
   
 
@@ -59,7 +59,8 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    needs: build
+    needs: check
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -69,5 +70,5 @@ jobs:
 
       - name: Deploy to Vercel
         env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_TOKEN: ${{ env.APP_URL }}
         run: vercel --token $VERCEL_TOKEN --prod
