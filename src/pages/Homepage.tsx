@@ -1,6 +1,6 @@
 import React from 'react';
 import { useQuery, gql } from '@apollo/client';
-import { Card, CardContainer, CardContent, CardImage, CardList, CardText, HorizontalScrollContainer } from '../styles/Card.styles';
+import { Card, CardContainer, CardImage, CardList, HorizontalScrollContainer } from '../styles/Card.styles';
 import { useNavigate } from 'react-router-dom';
 import HorizontalCard from '../styles/HorizontalCard';
 
