@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Homepage from './pages/Homepage';
 import { MainContainer } from './styles/Main.styles';
+import DetailAnime from './pages/DetailPage';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Router>
           <Routes>
             <Route path="/" element={<Homepage />} />
+            <Route path="/detail/:animeId" element={<DetailAnime />} />
           </Routes>
         </Router>
         </MainContainer>
