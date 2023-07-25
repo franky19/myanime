@@ -72,14 +72,6 @@ const HorizontalCard: React.FC<CardProps> = ({ onClick,imageSrc, title, textEpis
             </CardContent>
         </CardRow>
     </CardContainer>
-    // <CardContainer>
-    //   <CardImage src={imageSrc} alt="..." />
-    //   <CardContent>
-    //     <CardTitle>{title}</CardTitle>
-    //     <CardText>{text}</CardText>
-    //     <CardTimestamp>Status: {updatedAt}</CardTimestamp>
-    //   </CardContent>
-    // </CardContainer>
   );
 };
 

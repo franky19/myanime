@@ -64,21 +64,6 @@ export const CardDescription=styled.div`
 width:100%;
 `
 
-// const CardContainer = styled.div`
-//   display: flex;
-//   flex-direction: row;
-//   border: 1px solid #ccc;
-//   border-radius: 4px;
-//   overflow: hidden;
-//   margin-bottom: 16px;
-// `;
-
-// const CardImage = styled.img`
-//   width: 150px;
-//   height: 150px;
-//   object-fit: cover;
-// `;
-
 export const CardContent = styled.div`
   padding: 16px;
 `;

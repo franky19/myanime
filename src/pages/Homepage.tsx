@@ -70,7 +70,6 @@ const AnimeList: React.FC = () => {
               textEpisode={anime.episodes}
               updatedAt='' textStatus={`Status : anime.status`}
               onClick={()=>OnClickDetail(anime.id)}
-              // onClick={()=>OncClickDetail(anime.id)}
               />
           </>
         ))}
